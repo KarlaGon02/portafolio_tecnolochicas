@@ -1,0 +1,130 @@
+/* Configuración general */
+body {
+  font-family: "Fira Code", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Fondo claro para mayor contraste */
+  color: #212529; /* Texto oscuro para legibilidad */
+}
+
+/* Encabezado */
+#item {
+  color: wheat;
+  transition: transform 0.3s ease;
+}
+
+#item:hover {
+  transform: scale(1.1); /* Pequeño efecto de zoom al pasar el cursor */
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: rgb(25, 0, 255);
+  text-decoration: underline; /* Añade subrayado al pasar el cursor */
+}
+
+/* Presentación */
+.hero {
+  background-color: #343a40; /* Fondo oscuro para contraste */
+  color: white;
+  padding: 2rem 0;
+  border-radius: 8px;
+}
+
+.hero img {
+  border: 5px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón "Mi CV" */
+button.btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: rgb(98, 0, 255);
+  color: white;
+}
+
+/* Sección de habilidades */
+.habilidades .card {
+  background-color: #ffffff;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidades .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.habilidades .card-title {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Sección de proyectos */
+.proyectos .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyectos .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.proyectos .card img {
+  border-radius: 8px;
+}
+
+.proyectos .btn {
+  transition: background-color 0.3s ease;
+}
+
+.proyectos .btn:hover {
+  background-color: rgb(68, 0, 255);
+  color: white;
+}
+
+/* Sección de contacto */
+#contacto {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+#contacto .btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#contacto .btn:hover {
+  background-color: rgb(17, 0, 255);
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: rgb(68, 0, 255);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
